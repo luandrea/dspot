@@ -45,7 +45,7 @@ mvn clean package
 1. From the root folder copy the configuration to the file dhell/dspot.properties
 ```properties
 #relative path to the project root from dspot project
-project=../dhell
+project=../../dhell
 #relative path to the source project from the project properties
 src=src/main/java/
 #relative path to the test source project from the project properties
@@ -60,8 +60,8 @@ filter=fr.inria.stamp.examples.dhell*
 
 2. Execute DSpot
 ```
-cd dspot
-java -jar target/dspot-1.0.0-jar-with-dependencies.jar  -p ../dhell/dspot.properties -i 1 -t  fr.inria.stamp.examples.dhell.HelloAppTest -a MethodAdd
+cd dspot/dspot
+java -jar target/dspot-1.0.0-jar-with-dependencies.jar  -p ../../dhell/dspot.properties -i 1 -t  fr.inria.stamp.examples.dhell.HelloAppTest -a MethodAdd
 ```
 The execution uses these parameters:
 * p: [mandatory] specify the path to the configuration file.
