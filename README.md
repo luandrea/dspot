@@ -252,3 +252,5 @@ Here is the list of configuration properties of DSpot:
 ### Licence
 
 DSpot is published under LGPL-3.0 (see [Licence.md](https://github.com/STAMP-project/dspot/blob/master/Licence.md) for further details).
+
+# Test Github app
